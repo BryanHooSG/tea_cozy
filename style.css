@@ -1,0 +1,137 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    height: 49px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    font-size: 22px;
+}
+
+.nav img {
+    height: 50px;
+    width: auto;
+}
+
+.menu {
+    padding-right: 20px;
+}
+
+.menu li {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: 1200px 700px;
+    width: 1200px;
+    height: 700px;
+}
+
+.top-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: auto;
+
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.middle-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle-items-content img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+}
+
+.bottom-location {
+    display: flex;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.bottom-location h2 {
+    background-color: transparent;
+    padding: 15px;
+}
+
+.bottom-items {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+.bottom-items-content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    margin: 0 40px;
+    opacity: 1;
+}
+
+.bottom-end {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
